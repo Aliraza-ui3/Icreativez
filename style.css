@@ -341,31 +341,17 @@ p{
 }
 .Clutch {
     display: flex; 
-    margin-top: 60px;
     padding-left: 80px;
-    background-color: aliceblue;
 }
     .Clutch h1 {
         font-weight: 600;
-        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .Clutch h3 {
         padding-left: 200px;
         font-weight: 100;
         line-height: 1.5;
-        padding-top: 20px;
     }
-.nested {
-    display: flex;
-    justify-content: space-around; 
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-between; 
-    overflow: hidden;
-}
-
 .smallnest {
     width: 250px; 
     height: 300px; 

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Icreativez</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./swiper-bundle-min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
 </head>
 <body>
     <nav>
@@ -109,16 +115,52 @@
 <img src="./5.png" alt="" height="1300" width="1345">
 </div>
 <button class="battan">View All Case Studies</button>
-<div class="Clutch">
-    <h1>That' What <br> they said.</h1>
-    <h3>As a digital service company, we are highly  <br> praised and honoured for our excellent and <br>outstanding work. we were named Clutch as <br> as Pakistan's top services Company</h3>
-    </div>
-    <div class="nested">
-        <div class="smallnest"><img src="google.png" alt="" height="50"  class="center"></div>
-        <div class="smallnest"><img src="./6.png" alt="" height="250" width="250" class="center"></div>
-        <div class="smallnest"><img src="./6.png" alt="" height="250" width="250" class="center"></div>
-        <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
-    </div>
+    <section class="container">
+      <div class="card-container swiper">
+        <div class="card-content">
+          <div class="Clutch">
+            <h1>That' What <br> they said.</h1>
+            <h3>As a digital service company, we are highly  <br> praised and honoured for our excellent and <br>outstanding work. we were named Clutch as <br> as Pakistan's top services Company</h3>
+            </div>
+          <div class="swiper-wrapper">
+            <!-- Article -->
+            <article class="card-article swiper-slide">
+              <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
+            </article>
+
+            <!-- Article -->
+            <article class="card-article swiper-slide">
+              <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
+            </article>
+
+            <!-- Article -->
+            <article class="card-article swiper-slide">
+              <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
+            </article>
+
+            <!-- Article -->
+            <article class="card-article swiper-slide">
+              <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
+            </article>
+
+            <!-- Article -->
+            <article class="card-article swiper-slide">
+              <div class="smallnest"><img src="./6.png" alt="" height="250" width="250"class= "center"></div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-s-line"></i>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
     <div class="big">
         <div class="cont">
@@ -256,6 +298,11 @@
         </div>
       </footer>
       <script src="js/particles.js"></script>
-<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
+        <!-- === Swiper JS === -->
+    <script src="./js/swiper-bundle-min.js"></script>
+
+    <!-- === Script === -->
+    <script src="./js/script.js"></script>
 </body>
 </html>
